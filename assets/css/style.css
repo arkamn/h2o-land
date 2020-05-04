@@ -1,13 +1,13 @@
 body {
   background-image: url(../img/bg_content.png);
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
 }
 
-nav {
-  background-image: url(../img/bg_content.png);
+.container-fluid {
+  overflow: hidden;
 }
 
-.jumbotron{
+.jumbotron {
   padding: 10rem;
   background-image: url(../img/wat-bg.jpg);
   background-position: center;
@@ -16,10 +16,10 @@ nav {
   background-attachment: fixed;
 }
 
-.jumbotron-heading{
-padding-bottom: 3rem;
-color: white;
-text-shadow: 1px 1px 2em rgb(255, 255, 255), 0 0 1em rgb(38, 106, 253);
+.jumbotron-heading {
+  padding-bottom: 3rem;
+  color: white;
+  text-shadow: 1px 1px 2em rgb(255, 255, 255), 0 0 1em rgb(38, 106, 253);
 }
 
 h1 {
@@ -28,7 +28,7 @@ h1 {
   text-transform: uppercase;
 }
 
-h2 { 
+h2 {
   font-size: 4rem;
   font-weight: 100;
 }
@@ -74,21 +74,21 @@ h2:after {
   color: rgb(0, 0, 0);
   text-transform: uppercase;
   transition: background-color 0.3s linear;
+  transition: color 0.3s linear;
 }
 
 .card__desk__btn:hover {
-  background-color: rgba(255, 255, 255, 0.5);
-  color: rgb(0, 0, 0);
+  background-color: rgb(37, 68, 114);
+  color: rgb(255, 255, 255);
 }
 
 .footer__style {
   margin-top: 35px;
   padding-top: 15px;
   background-color: rgba(0, 0, 0, 0.342);
-
 }
 
-.footer__p{
+.footer__p {
   color: black;
   font-size: 1rem;
   font-weight: 300;
