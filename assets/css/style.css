@@ -1,3 +1,7 @@
+html{
+  scroll-behavior: smooth;
+}
+
 body {
   background-image: url(../img/bg_content.png);
   font-family: "Roboto", sans-serif;
@@ -7,9 +11,14 @@ body {
   overflow: hidden;
 }
 
+nav {
+  font-size: 1em;
+  font-weight: 300;
+}
+
 .jumbotron {
   padding: 10rem;
-  background-image: url(../img/wat-bg.jpg);
+  background-image: url(../img/background.jpg);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -19,18 +28,28 @@ body {
 .jumbotron-heading {
   padding-bottom: 3rem;
   color: white;
-  text-shadow: 1px 1px 2em rgb(255, 255, 255), 0 0 1em rgb(38, 106, 253);
+  text-shadow: 1px 1px 2px rgb(0, 0, 0);
 }
 
 h1 {
   font-size: 2rem;
-  font-weight: 100;
+  font-weight: 300;
   text-transform: uppercase;
 }
 
 h2 {
   font-size: 4rem;
   font-weight: 100;
+}
+
+h5 {
+  font-size: 1em;
+  font-weight: 300;
+}
+
+.card-text {
+  font-size: 1em;
+  font-weight: 300;
 }
 
 .card {
@@ -74,11 +93,11 @@ h2:after {
   color: rgb(0, 0, 0);
   text-transform: uppercase;
   transition: background-color 0.3s linear;
-  transition: color 0.3s linear;
+  transition: color 0.1s linear;
 }
 
 .card__desk__btn:hover {
-  background-color: rgb(37, 68, 114);
+  background-color: rgb(52, 58, 64);
   color: rgb(255, 255, 255);
 }
 
